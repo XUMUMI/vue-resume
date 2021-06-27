@@ -1,0 +1,30 @@
+$color: gray;
+$bg-color: lightgray;
+
+.class{
+  width: 100%;
+  .header{
+    margin-top: 3rem;
+    background:
+            linear-gradient(-45deg, transparent .5rem, $bg-color 0) right no-repeat,
+            linear-gradient(135deg, transparent .5rem, $bg-color 0) left no-repeat;
+    background-size: 50% 100%;
+    .title{
+      color: white;
+      padding: .5rem 1.5rem;
+      display: inline-block;
+      font-size: 1.2rem;
+      background:
+              linear-gradient(-45deg, transparent .5rem, $color 0) right no-repeat,
+              linear-gradient(135deg, transparent .5rem, $color 0) left no-repeat;
+      background-size: 50% 100%;
+    }
+  }
+  .cont{
+    margin: 0;
+    &::before{
+      margin-right: .5rem;
+      content: "-";
+    }
+  }
+}

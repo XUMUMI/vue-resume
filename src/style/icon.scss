@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAXEAAsAAAAACvgAAAV4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDSAqIWIdhATYCJAMYCw4ABCAFhG0HUhutCVGUTk6C7EuMXQ8ErdRgU44pP2uA72Ww9hnzJGxuKQUVAAAAgCQBQDzA3/s7d7z757BsTt/UpkDSOAokyjMpSyTeWtzVXO4ju+IKlTy4IiuE+2QvgHO5L4LTFbbCVDgSphW6cAxg1A//XvrSOjmtxwL2ZXNSGTNzX5P+qAYIGDDb5gOz/5EJpxZxZg1Q7l9aU10k4TDuXb0BvALTGGTVQCHpCUWAQk53zs3ZXbHrwOyd2t64j4CmTRPixwtrm1C+ZdKHPknR0EDbONxaBoOstsszvKBuKth9M+FXEx/iN4HH8vfDj3ZZRFUiutDV53V4f1OT0cM/h/v0sLtudP2ICgmrJ+YM9/P+O4karZb6JrRy0gnQVhflnVZCkYc19k9PE4WDduwn7kxfHeCfV+D6NiWd6aobqEwxIu+KGIl3D4zAu5cCa8igqhfKXHaoHz+qBIQ/EXOVPt7+02SNu6laaZAZNDEJGSpNR0AQEo13qoSxLQ5BhEwuQhB6H+5VZ0wBEPyIS9M8guCanZPRIMyFQKARgWYBNO21mIIhjNHGZC5qwWzHO3E2uzNZjKIIGw28jDZ4+8u3AdCOIEE7BIw9jBB3xxacR/MQSuiEgla8E/8SM2kYQaA8Hv7oEffhw0oKtjUH4tz5bYSK7y5C/OjCTvgBvRRspkWzE6edBnpo53g7lxHUhrFCOtDOSWZw5cOgmE6E3ADl+d4J5eHBj7z39ZdDiYD7IQQW9NDv7kNwZjIqaB9n80LTEBqStN9awNLe1YhjlAkcbyXCZoGohPnRAxhW02NTAMoMtgficH067jRyBJ9FZ3KofJRIKqBAkTB3ejASNhVMf4aRPH1G6uaks0xWlowTflNqRiVFJYtp99RMPtyObMcpPnHp0okijj3ZPkT++B8GM0s1peq9ZV86a6WsbJmVvm0ZjtApWRQFyixZkQLY0RE+kEJid1eigh5NWI6PdhxAQYwvliYnFCAbkmcphpQs2lYHDExGRf7EO3xm6XZDly97hUvrWaRp+vlpphVRaSFtDEW2g4WedNily5eHli33p1h7fME83swsviCRFuaCegfQMVhNkXq/J1kjsf9eitD3JVakP6VvM1IY2/Qa+k753Tv0JLF7F0vtnrBKXjwqYZQ8fpTKeGJXcvMiyPBfSNMM04xw8IpMz/PPC4hMs/fSitAMgxKtTbNFrOzYjpwmLuURq+9X16HlFF0uvPKW9JdZ8JOhx/q66tbgC3qG6XpJ7kGZFSeiN4fWM0tmZWdbvSTDjFJfRZcONzVHFVVH/+Qvc1T1c1JVcVSTCe4Oli4zidGxC2SkS6Q4+yaqpQtFGlqGk9Pkk4I/bCiAETAlx5V0kozjkhUkFMjaPTyU6BRmPKBuSq39+5+Hk+HUw9SGlTwe9IfUrAw3AP/XUIJUrvydSYiA9BRf45tKewkUgPSy/8N6XtU3cVIZ+3rI5z7p7c8uwuP/MsAX6iJK8e03ALJs9hOUDPWeKlCi4kYuG9GM+/B1Dw9978o4Qev9vYyTFqKaGUjqZnGZtAqVll0o6vagacXiwS0jQkLID8teCQR9bxB1PUPS94HLpC+oTP1B0S8BTdc1jtkyn5WfFcQk6di9REsLfJ64ZL5qvE5Gz2Wiqy752yQiK4UtpTksLZJPYhc7RGdGW0qOXAQeLpCLkesGGIrAJk0qppThiKpy6I0ULfAg74hAGInoUNclZNEEfDwfXsqPKr+OGHpcjJjp1ZPcRoSItXTUomgicIt6H9XrqbSMnDG0SZblEFcNAx60wLzEjfMBFMJr2YhGUpgbZEMjVFaOY/XK4Y3eszwLmqLrlRCmZTsu+Ya5biaiixOP+an5LGu5OTeYQPLR1EowgwAA') format('woff2')
+}
+
+.iconfont {
+  font: {
+    family: "iconfont" !important;
+    size: 16px;
+    style: normal;
+  };
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-call:before {
+  content: "\e64a";
+}
+
+.icon-sex:before {
+  content: "\e611";
+}
+
+.icon-mail:before {
+  content: "\e623";
+}
+
+.icon-location:before {
+  content: "\e66a";
+}
+
+.icon-age:before {
+  content: "\e64c";
+}

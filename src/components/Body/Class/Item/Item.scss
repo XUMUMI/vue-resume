@@ -1,0 +1,30 @@
+$title-font-size: 1.2rem;
+$font-size: 1rem;
+.item{
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      display: inline-block;
+      font-weight: bold;
+      font-size: $title-font-size;
+
+      &::before {
+        content: "·";
+        margin-right: .5rem;
+      }
+    }
+
+    .time{
+      display: inline-block;
+      font-size: $title-font-size - 0.2rem;
+      color: darkgray;
+    }
+  }
+  .cont{
+    font-size: $font-size;
+    padding: 0 3rem;
+    line-height: 1.5rem;
+  }
+}

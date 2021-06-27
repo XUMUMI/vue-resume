@@ -1,0 +1,9 @@
+@import "~@/style/icon.scss";
+
+.iconfont {
+  font-size: 1rem;
+  margin-right: 1rem;
+  &:before{
+    padding-right: .3rem;
+  }
+}
