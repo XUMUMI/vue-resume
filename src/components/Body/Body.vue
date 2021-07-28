@@ -6,6 +6,7 @@
       :tag="content.name"
       :cont="content.cont"
     />
+    <img alt="wechat" class="wechat" src="~@/assets/images/wechat.png" />
   </div>
 </template>
 

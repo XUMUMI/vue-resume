@@ -16,7 +16,7 @@ $font-size: 1rem;
       }
     }
 
-    .time{
+    .add{
       display: inline-block;
       font-size: $title-font-size - 0.2rem;
       color: darkgray;
@@ -24,7 +24,7 @@ $font-size: 1rem;
   }
   .cont{
     font-size: $font-size;
-    padding: 0 3rem;
+    padding: 0 1.5rem;
     line-height: 1.5rem;
   }
 }

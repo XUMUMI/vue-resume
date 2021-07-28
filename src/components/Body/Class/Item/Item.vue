@@ -2,7 +2,7 @@
   <div class="item">
     <div class="top-bar">
       <p class="title">{{ tag }}</p>
-      <p class="time">{{ time }}</p>
+      <p class="add">{{ add }}</p>
     </div>
     <div class="cont"><slot /></div>
   </div>

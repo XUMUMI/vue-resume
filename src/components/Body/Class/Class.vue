@@ -7,7 +7,7 @@
       v-for="items in cont"
       :key="items.title"
       :tag="items.title"
-      :time="items.time"
+      :add="items.add"
     >
       <p v-for="item in items.cont" :key="item" class="cont">{{ item }}</p>
     </Item>
